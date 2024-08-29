@@ -1,8 +1,8 @@
 // refer from https://flowerpassword.com
 function flower_password(pwd, key) {
 	var md5one = md5(pwd, key);
-	var md5two = md5(md5one, "snow");
-	var md5three = md5(md5one, "kise");
+	var md5two = md5(md5one, "sword");
+	var md5three = md5(md5one, "moonlight");
 	// to uppercase
 	var rule = md5three.split("");
 	var source = md5two.split("");
